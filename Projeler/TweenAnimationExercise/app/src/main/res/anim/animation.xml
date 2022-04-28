@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+<!--Translate can be provide vertical and horizontal direction motion-->
+    <translate
+        android:fromXDelta="1.0"
+        android:toXDelta="50.0"
+        android:fromYDelta="1.0"
+        android:toYDelta="100%"
+        android:duration="1000"/>
+
+<!--Alpha can provide fade-in and fade-out in an animation-->
+    <alpha
+        android:fromAlpha="0.0"
+        android:toAlpha="0.9"
+        android:duration="1000"/>
+
+<!--It can provide rotate in an animation-->
+    <rotate
+        android:fromDegrees="90"
+        android:toDegrees="-90"
+        android:toYScale="1.0"
+        android:toXScale="1.0"
+        android:pivotX="50%"
+        android:pivotY="50%"
+        android:duration="5000" />
+
+<!--It can provide resizing in an animation-->
+    <scale
+        android:fromXScale="1.0"
+        android:toXScale="0.6"
+        android:fromYScale="1.0"
+        android:toYScale="0.6"
+        android:pivotX="70%"
+        android:pivotY="70%"
+        android:fillAfter="false"
+        android:duration="1000"/>
+
+</set>
