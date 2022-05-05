@@ -112,4 +112,6 @@ TextView içini
 
 ## <a name="1"></a> Cevap 4
 
+animator: Belirli bir süre boyunca bir animasyon gerçekleştirir. 
 
+objectAnimator: Belirli bir süre boyunca bir nesnenin belirli bir özelliğini canlandırır.
